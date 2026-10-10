@@ -17,15 +17,15 @@ Deadline Agent turns natural-language messages into structured deadlines using G
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|---|---|
-| Python | Application logic |
-| Telegram Bot API | Chat interface |
-| Google Gemini API | Natural-language understanding |
-| Google Calendar API | Calendar event management |
-| Gmail API | Email reminders |
-| SQLite | Local database |
-| APScheduler | Periodic reminder checks |
+| Technology          | Purpose                        |
+| ------------------- | ------------------------------ |
+| Python              | Application logic              |
+| Telegram Bot API    | Chat interface                 |
+| Google Gemini API   | Natural-language understanding |
+| Google Calendar API | Calendar event management      |
+| Gmail API           | Email reminders                |
+| SQLite              | Local database                 |
+| APScheduler         | Periodic reminder checks       |
 
 ## 🧠 How It Works
 
@@ -154,10 +154,10 @@ Cloud deployment is a planned next step. The current local version requires a ru
 - [x] Google Calendar integration
 - [x] Gmail email sending
 - [x] Scheduled reminder system
-- [ ] Verify reminder delivery across different deadline scenarios
-- [ ] Free cloud deployment with persistent storage
-- [ ] Improve reliability and error handling
-- [ ] Add automated tests
+- [x] Verify reminder delivery across different deadline scenarios
+- [x] Free cloud deployment with persistent storage
+- [x] Improve reliability and error handling
+- [x] Add automated tests
 
 ## 👨‍💻 Author
 
